@@ -23,7 +23,12 @@ btn.textContent = darkModePreference ? '⭐️' : '🌙';
 
 document.getElementById('dark-mode-toggle').addEventListener('click', toggleDarkMode); 
 
+// switch dark mode button
 
+function togglePosition(){
+    const dmb = document.querySelector('.dmb');
+    dmb.classList.toggle('moved');
+}
 
 
 document.getElementById("category-all").addEventListener("click", function() {

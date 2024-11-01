@@ -49,6 +49,37 @@ body {
   color: var(--background-color);
 }
 
+.dmb-content{
+  width: 60px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background-color: #aaa;
+}
+
+.dmb{
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: left 0.5s cubic-bezier(.51,0,.51,.99) 0s;
+  color: red;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 15px;
+  left:0;
+}
+
+.dmb.moved {
+  left:30px;
+}
+
+
+
+
+
+
 .shadow-1 {
   box-shadow: 0 0 5px 0px var(--text-color);
 }
